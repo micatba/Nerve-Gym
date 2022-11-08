@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:ital,wght@1,300&display=swap');
+</style>
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fondo{
+    background-image: url(../img/pesas.jpg);
+    height: 100vh;
+}
+
+h2{
+    background-color: aqua;
+    border: double magenta;
+    border-width: 8px;
+    font-size: larger;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+.navbar-brand{
+    color: aqua;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    text-shadow: 0 5px 5px magenta;
+    text-decoration:none;
+}
+.navbar-brand:hover{
+    color: magenta;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    text-shadow: 0 5px 5px aqua;
+}
