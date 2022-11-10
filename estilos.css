@@ -251,6 +251,61 @@ table tr{
     left:1320px;
 }
 
+h3{
+    position: absolute;
+    color: magenta;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    text-decoration: underline aqua;
+    top: 200px;
+    left: 600px;
+}
+section iframe{
+    position: absolute;
+    animation-timing-function: 2s;
+}
+
+#calentamiento{
+    position: absolute;
+    top: 350px;
+    left: 50px;
+}
+#manos1{
+    position: absolute;
+    top: 720px;
+    left: 350px;
+}
+
+#espalda{
+    top: 350px;
+    left: 800px;
+}
+#manos2{
+    position: absolute;
+    top: 720px;
+    left: 1100px;  
+}
+
+#brazos{
+    top: 800px;
+    left: 50px;
+}
+#manos3{
+    position: absolute;
+    top: 1160px;
+    left: 350px;
+}
+
+#gap{
+    top: 800px;
+    left: 800px;
+}
+#manos4{
+    position: absolute;
+    top: 1160px;
+    left: 1100px;
+}
 
 footer{
     position: absolute;
@@ -372,6 +427,8 @@ footer{
         top: 200px;
 
     }
+
+
 
     @media only screen and (min-width:400px) and (max-width:480px){
 
@@ -497,9 +554,66 @@ footer{
                 left:320px;
             }
           
+            h3{
+               visibility: hidden;
+               margin: 0;
+            }
+            section iframe{
+                position: absolute;
+                display: list-item;
+                margin-bottom: 15px;
+                animation-timing-function: 2s;
+            }
+                
+            #calentamiento{
+                position: absolute;
+                height: 200px;
+                top: 150px;
+                left:0px;
+                width: 100%;
+            }
+            #manos1{
+                visibility: hidden;
+                margin: 0;
+            }
+                
+            #espalda{
+                position: absolute;
+                height: 200px;
+                top: 355px;
+                left:0px;
+                width: 100%;
+            }
+            #manos2{
+                visibility: hidden;
+            }
+                
+            #brazos{
+                position: absolute;
+                height: 200px;
+                top: 560px;
+                left: 0px;
+                width: 100%;
+            }
+            #manos3{
+               visibility: hidden;
+            }
+                
+            #gap{
+                position: absolute;
+                height: 200px;
+                top: 765px;
+                left:0px;
+                width: 100%;
+            }
+            #manos4{
+                visibility: hidden;
+            }
+
+
         footer{
             position:absolute;
-            top: 1010px;
+            top: 1000px;
             left: 0;
             right: 0;
             bottom: 80px;
