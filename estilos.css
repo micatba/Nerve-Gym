@@ -26,7 +26,10 @@ h2{
 }
 
 .navbar{
-    background-color: black !important; 
+    background-color: black !important;
+    border-style: double;
+    border-color: magenta;
+    border-width: 5px;
 }
 .navbar-nav{
     font-size: 20px;
@@ -124,7 +127,6 @@ aside{
     background-size:cover;
 }
 
-
 .form-check{
 color: white;
 font-size: 25px;
@@ -133,6 +135,121 @@ margin-left: 50px;
 margin-top: 70px;
 }
 
+table{
+    position: absolute;
+    top: 280px;
+    left: 50px;
+    text-align: center;
+    border: aqua double;
+    border-width: 5px;
+    padding: 10px;
+    height: 700px;
+    width: 700px;
+    animation-timing-function: 45s;
+}
+table th{
+    color: magenta;
+    border: aqua double;
+    border-width: 5px;
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+}
+table tr{
+    color: white;
+    border: aqua double;
+    font-size: 20px;
+    border-width: 5px;
+    padding: 10px;
+
+}
+
+.profes{
+    position: absolute;
+    color: aqua;
+    font-size: 40px;
+    border-style:groove;
+    border-color: magenta;
+    border-width: 2px;
+    font-family: 'Montserrat', sans-serif;
+    top: 300px;
+    left: 1040px;
+}
+
+.user{
+    position: absolute;
+    font-size: 35px;
+    text-align: center;
+}
+.uno{
+    position: absolute;
+    color: #00f5f9;
+    top: 400px;
+    left:800px;
+}
+.dos{
+    position: absolute;
+    color: magenta;
+    top: 550px;
+    left:790px;
+}
+.tres{
+    position: absolute;
+    color: #00f5f9;
+    top: 700px;
+    left:820px;
+}
+
+
+.user2{
+    position: absolute;
+    font-size: 35px;
+    text-align: center;
+}
+.cuatro{
+    position: absolute;
+    color: magenta;
+    top: 400px;
+    left: 1050px;
+}
+.cinco{
+    position: absolute;
+    color: #00f5f9;
+    top: 550px;
+    left: 1040px;
+}
+.seis{
+    position: absolute;
+    color: magenta;
+    top: 700px;
+    left: 1040px;
+}
+
+
+.user3{
+    position: absolute;
+    font-size: 35px;
+    text-align: center;
+}
+.siete{
+    position: absolute;
+    color: #00f5f9;
+    top: 400px;
+    left:1320px;
+}
+.ocho{
+    position: absolute;
+    color: magenta;
+    top: 550px;
+    left: 1280px;
+}
+.nueve{
+    position: absolute;
+    color: #00f5f9;
+    top: 700px;
+    left:1320px;
+}
 
 
 footer{
@@ -282,9 +399,107 @@ footer{
             font-size: 18px;
             }
 
+        table{
+            position: absolute;
+            top: 150px;
+            left: 15px;
+            text-align: center;
+            border: aqua double;
+            border-width: 5px;
+            padding: 10px;
+            height: 400px;                
+            width: 400px;
+            animation-timing-function: 45s;
+            }
+        .user section{
+            font-size:10px;
+            color: magenta;
+            position:absolute;
+        }
+         .profes{
+            position: absolute;
+            color: aqua;
+            font-size: 20px;
+            border-style:groove;
+            border-color: magenta;
+            border-width: 2px;
+            font-family: 'Montserrat', sans-serif;
+            top: 580px;
+            left:150px;
+            }
+            .user{
+                position: absolute;
+                font-size: 15px;
+                text-align: center;
+            }
+            .uno{
+                position: absolute;
+                color: #00f5f9;
+                top: 600px;
+                left:30px;
+            }
+            .dos{
+                position: absolute;
+                color: magenta;
+                top: 700px;
+                left:20px;
+            }
+            .tres{
+                position: absolute;
+                color: #00f5f9;
+                top: 800px;
+                left:35px;
+            }
+            .user2{
+                position: absolute;
+                font-size: 15px;
+                text-align: center;
+            }
+            .cuatro{
+                position: absolute;
+                color: magenta;
+                top: 600px;
+                left: 180px;
+            }
+            .cinco{
+                position: absolute;
+                color: #00f5f9;
+                top: 700px;
+                left: 180px;
+            }
+            .seis{
+                position: absolute;
+                color: magenta;
+                top: 800px;
+                left: 180px;
+            }
+            .user3{
+                position: absolute;
+                font-size: 15px;
+                text-align: center;
+            }
+            .siete{
+                position: absolute;
+                color: #00f5f9;
+                top: 600px;
+                left:320px;
+            }
+            .ocho{
+                position: absolute;
+                color: magenta;
+                top: 700px;
+                left: 300px;
+            }
+            .nueve{
+                position: absolute;
+                color: #00f5f9;
+                top: 800px;
+                left:320px;
+            }
+          
         footer{
             position:absolute;
-            top: 1000px;
+            top: 1010px;
             left: 0;
             right: 0;
             bottom: 80px;
@@ -385,7 +600,6 @@ footer{
                 top: 290px;
         
             }
-    
-            
+     
         }
 
