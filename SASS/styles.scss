@@ -1,0 +1,718 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:ital,wght@1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.fondo{
+    background-image: url(./img/pesas.jpg);
+    height: 155vh;
+    background-size: cover;
+}
+
+h2{
+    background-color: aqua;
+    border: double magenta;
+    border-width: 8px;
+    font-size: larger;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.navbar{
+    background-color: black !important;
+    border-style: double;
+    border-color: magenta;
+    border-width: 5px;
+}
+.navbar-nav{
+    font-size: 20px;
+}
+.navbar-brand{
+    color: aqua;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    text-shadow: 0 5px 5px magenta;
+    text-decoration:none;
+}
+.navbar-brand:hover{
+    color: magenta;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    text-shadow: 0 5px 5px aqua;
+}
+section{
+    background-color: black;
+    
+}
+.nosotros{
+    background-color: magenta;
+    padding-bottom: 30px;
+}
+.pam{
+    background-color: magenta;
+    font-size: 20px;
+}
+
+aside{
+    float: right;
+    display: inline-flex;
+    position: relative;
+    height: 840px;
+}
+
+.galeria{
+    height: auto;
+    width: 100%;
+    background-color: magenta;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 150px);
+    grid-template-areas: "img1 img2 img2 img3"
+                        "img1 img2 img2 img3"
+                        "img6 img6 img4 img4"
+                        "img6 img6 img4 img4"
+                        "img5 img5 img4 img4"
+                        "img5 img5 img4 img4";
+    grid-gap: 10px;
+    padding: 15px;
+}
+
+.item{
+    border: aqua 4px double;
+    border-radius: 8px;
+    background-position: center;
+}
+
+.item1{
+    grid-area: img1;
+    background-image: url(./img/Cycling.jpg);
+    background-size: cover;
+}
+
+.item2{
+    grid-area: img2;
+    background-image: url(./img/gym.webp);
+    background-size: cover;
+}
+
+.item3{
+    grid-area: img3;
+    background-image: url(./img/funcional.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item4{
+    grid-area: img4;
+    background-image: url(./img/dance.jpg);
+    background-size: cover;
+}
+
+.item5{
+    grid-area: img5;
+    background-image: url(./img/yoga.jpg);
+    background-size: cover;
+}
+
+.item6{
+    grid-area: img6;
+    background-image: url(./img/kick.webp);
+    background-size:cover;
+}
+
+.form-check{
+color: white;
+font-size: 25px;
+display: inline-block;
+margin-left: 50px;
+margin-top: 70px;
+}
+
+table{
+    position: absolute;
+    top: 280px;
+    left: 50px;
+    text-align: center;
+    border: aqua double;
+    border-width: 5px;
+    padding: 10px;
+    height: 700px;
+    width: 700px;
+    animation-timing-function: 45s;
+}
+table th{
+    color: magenta;
+    border: aqua double;
+    border-width: 5px;
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+}
+table tr{
+    color: white;
+    border: aqua double;
+    font-size: 20px;
+    border-width: 5px;
+    padding: 10px;
+
+}
+
+.profes{
+    position: absolute;
+    color: aqua;
+    font-size: 40px;
+    border-style:groove;
+    border-color: magenta;
+    border-width: 2px;
+    font-family: 'Montserrat', sans-serif;
+    top: 300px;
+    left: 1040px;
+}
+
+.user{
+    position: absolute;
+    font-size: 35px;
+    text-align: center;
+}
+.uno{
+    position: absolute;
+    color: #00f5f9;
+    top: 400px;
+    left:800px;
+}
+.dos{
+    position: absolute;
+    color: magenta;
+    top: 550px;
+    left:790px;
+}
+.tres{
+    position: absolute;
+    color: #00f5f9;
+    top: 700px;
+    left:820px;
+}
+
+
+.user2{
+    position: absolute;
+    font-size: 35px;
+    text-align: center;
+}
+.cuatro{
+    position: absolute;
+    color: magenta;
+    top: 400px;
+    left: 1050px;
+}
+.cinco{
+    position: absolute;
+    color: #00f5f9;
+    top: 550px;
+    left: 1040px;
+}
+.seis{
+    position: absolute;
+    color: magenta;
+    top: 700px;
+    left: 1040px;
+}
+
+
+.user3{
+    position: absolute;
+    font-size: 35px;
+    text-align: center;
+}
+.siete{
+    position: absolute;
+    color: #00f5f9;
+    top: 400px;
+    left:1320px;
+}
+.ocho{
+    position: absolute;
+    color: magenta;
+    top: 550px;
+    left: 1280px;
+}
+.nueve{
+    position: absolute;
+    color: #00f5f9;
+    top: 700px;
+    left:1320px;
+}
+
+h3{
+    position: absolute;
+    color: magenta;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    text-decoration: underline aqua;
+    top: 200px;
+    left: 600px;
+}
+section iframe{
+    position: absolute;
+    animation-timing-function: 2s;
+}
+
+#calentamiento{
+    position: absolute;
+    top: 350px;
+    left: 50px;
+}
+#manos1{
+    position: absolute;
+    top: 720px;
+    left: 350px;
+}
+
+#espalda{
+    top: 350px;
+    left: 800px;
+}
+#manos2{
+    position: absolute;
+    top: 720px;
+    left: 1100px;  
+}
+
+#brazos{
+    top: 800px;
+    left: 50px;
+}
+#manos3{
+    position: absolute;
+    top: 1160px;
+    left: 350px;
+}
+
+#gap{
+    top: 800px;
+    left: 800px;
+}
+#manos4{
+    position: absolute;
+    top: 1160px;
+    left: 1100px;
+}
+
+footer{
+    position: absolute;
+    top: 1250px;
+    left: 0;
+    right: 0;
+    bottom: 80px;
+    height: 200px;
+    border-color: magenta;
+    border-style: double;
+    border-width: 28px;
+    border-width: 8px;
+    background-color: #00f5f9;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23f900f8' fill-opacity='0.55'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    display: block;
+    }
+    footer a{
+        text-decoration: none;
+    }
+    .ig{
+        color: magenta;
+        font-size: 40px;
+        padding-left: 17px;
+        top: 985px;
+        display: block;
+        margin-top: 15px;
+        width: fit-content;
+    }  
+    
+    .yt{
+        color: magenta;
+        font-size: 40px;
+        padding-left: 12px;
+        display: block;
+        margin-top: 15px;
+        width: fit-content;
+    }
+
+    .wp{
+        color: magenta;
+        font-size: 40px;
+        padding-left: 15px;
+        margin-top: 15px;
+        width:fit-content;
+    }
+
+    i:hover{
+        background-color: rgba(0, 0, 0, 0.266);
+        visibility: visible;
+    }
+    
+    form label{
+    left: 570px;
+    top: 20px;
+    position: absolute;
+    font-family: sans-serif;
+    background-color: black;
+    color: magenta;
+    padding: 8px;
+    border: 4px groove;
+    border-color: magenta;
+    font-weight: bold;
+    display: block;
+    font-size: 20px;
+    animation-name: pulse;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    }
+  @keyframes pulse{
+    0%{
+        font-size: 20px;
+    }
+    50%{
+        font-size: 15px;
+    }
+    100%{
+        font-size: 20px;
+    }
+  }
+
+    textarea{
+        position:absolute;
+        left: 560px;
+        top: 85px;
+        bottom: 75px;
+    }
+    
+     #enviar{
+        position: absolute;
+        top: 130px;
+        left: 700px;
+        padding: 4px;
+        background-color: black;
+        font-weight: bold;
+        border: 4px groove;
+        border-color:magenta;
+        color: magenta;
+    }
+    
+    #borrar{
+        position: absolute;
+        left: 630px;
+        top: 130px;
+        padding: 4px;
+        background-color: black;
+        font-weight: bold;
+        border: 4px groove;
+        border-color: magenta ;
+        color: magenta;
+    }
+
+    footer p{
+        color: rgb(74, 72, 72);
+        font-size:30px;
+        font-family:fantasy;
+        position:absolute;
+        left: 450px;
+        text-align: center;
+        top: 200px;
+
+    }
+
+
+
+    @media only screen and (min-width:400px) and (max-width:480px){
+
+        .galeria{
+            position: absolute;
+            background: none;
+            grid-template-columns: repeat(2, 200px);
+            grid-template-rows: repeat (6, 200px 200px);
+            grid-template-areas:"img1  img2"
+                                "img3  img4"
+                                "img5  img6"; 
+        }
+        .item{
+            border: magenta 4px double;
+            border-radius: 8px;
+            background-position: center;
+            background-size: cover;
+        }
+        .checkbox{
+            margin-top: 500px;
+        }
+        .form-check{
+            position: relative;
+            color: white;
+            font-size: 18px;
+            }
+
+        table{
+            position: absolute;
+            top: 150px;
+            left: 15px;
+            text-align: center;
+            border: aqua double;
+            border-width: 5px;
+            padding: 10px;
+            height: 400px;                
+            width: 400px;
+            animation-timing-function: 45s;
+            }
+        .user section{
+            font-size:10px;
+            color: magenta;
+            position:absolute;
+        }
+         .profes{
+            position: absolute;
+            color: aqua;
+            font-size: 20px;
+            border-style:groove;
+            border-color: magenta;
+            border-width: 2px;
+            font-family: 'Montserrat', sans-serif;
+            top: 580px;
+            left:150px;
+            }
+            .user{
+                position: absolute;
+                font-size: 15px;
+                text-align: center;
+            }
+            .uno{
+                position: absolute;
+                color: #00f5f9;
+                top: 600px;
+                left:30px;
+            }
+            .dos{
+                position: absolute;
+                color: magenta;
+                top: 700px;
+                left:20px;
+            }
+            .tres{
+                position: absolute;
+                color: #00f5f9;
+                top: 800px;
+                left:35px;
+            }
+            .user2{
+                position: absolute;
+                font-size: 15px;
+                text-align: center;
+            }
+            .cuatro{
+                position: absolute;
+                color: magenta;
+                top: 600px;
+                left: 180px;
+            }
+            .cinco{
+                position: absolute;
+                color: #00f5f9;
+                top: 700px;
+                left: 180px;
+            }
+            .seis{
+                position: absolute;
+                color: magenta;
+                top: 800px;
+                left: 180px;
+            }
+            .user3{
+                position: absolute;
+                font-size: 15px;
+                text-align: center;
+            }
+            .siete{
+                position: absolute;
+                color: #00f5f9;
+                top: 600px;
+                left:320px;
+            }
+            .ocho{
+                position: absolute;
+                color: magenta;
+                top: 700px;
+                left: 300px;
+            }
+            .nueve{
+                position: absolute;
+                color: #00f5f9;
+                top: 800px;
+                left:320px;
+            }
+          
+            h3{
+               visibility: hidden;
+               margin: 0;
+            }
+            section iframe{
+                position: absolute;
+                display: list-item;
+                margin-bottom: 15px;
+                animation-timing-function: 2s;
+            }
+                
+            #calentamiento{
+                position: absolute;
+                height: 200px;
+                top: 150px;
+                left:0px;
+                width: 100%;
+            }
+            #manos1{
+                visibility: hidden;
+                margin: 0;
+            }
+                
+            #espalda{
+                position: absolute;
+                height: 200px;
+                top: 355px;
+                left:0px;
+                width: 100%;
+            }
+            #manos2{
+                visibility: hidden;
+            }
+                
+            #brazos{
+                position: absolute;
+                height: 200px;
+                top: 560px;
+                left: 0px;
+                width: 100%;
+            }
+            #manos3{
+               visibility: hidden;
+            }
+                
+            #gap{
+                position: absolute;
+                height: 200px;
+                top: 765px;
+                left:0px;
+                width: 100%;
+            }
+            #manos4{
+                visibility: hidden;
+            }
+
+
+        footer{
+            position:absolute;
+            top: 1000px;
+            left: 0;
+            right: 0;
+            bottom: 80px;
+            height: 300px;
+            background-color: rgba(0, 255, 255, 0.907);
+            border-color: magenta;
+            border-style: double;
+            border-width: 28px;
+            border-width: 8px;
+            background-color: #00f5f9;
+            background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23f900f8' fill-opacity='0.55'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            display: block;
+            }
+            
+            .ig{
+                color: magenta;
+                font-size: 40px;
+                padding-left: 17px;
+                display: block;
+                margin-top: 45px;
+                width: fit-content;
+            }  
+            
+            .yt{
+                color: magenta;
+                font-size: 40px;
+                padding-left: 12px;
+                display: block;
+                margin-top: 45px;
+                width: fit-content;
+            }
+        
+            .wp{
+                color: magenta;
+                font-size: 40px;
+                padding-left: 15px;
+                margin-top: 45px;
+                width:fit-content;
+            }
+        i:hover{
+            background-color: rgba(0, 0, 0, 0.266);
+            }
+            
+            form label{
+            left: 130px;
+            top: 20px;
+            position: absolute;
+            font-family: sans-serif;
+            background-color: black;
+            color: magenta;
+            padding: 5px;
+            border: 4px groove;
+            border-color: magenta;
+            font-weight: bold;
+            display: block;
+            font-size: 15px;
+            }
+            
+            textarea{
+                position:absolute;
+                left: 130px;
+                top: 80px;
+                bottom: 60px;
+                box-sizing: border-box;
+            }
+            
+             #enviar{
+                position: absolute;
+                top: 238px;
+                left: 250px;
+                padding: 4px;
+                background-color: black;
+                font-weight: bold;
+                border: 4px groove;
+                border-color:magenta;
+                color: magenta;
+            }
+            
+            #borrar{
+                position: absolute;
+                left: 175px;
+                top: 238px;
+                padding: 4px;
+                background-color: black;
+                font-weight: bold;
+                border: 4px groove;
+                border-color: magenta ;
+                color: magenta;
+            }
+        
+            footer p{
+                color: rgb(74, 72, 72);
+                font-size: 20px;
+                font-family:fantasy;
+                position:absolute;
+                left: 15px;
+                text-align: center;
+                top: 290px;
+        
+            }
+     
+        }
