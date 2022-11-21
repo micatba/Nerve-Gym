@@ -767,3 +767,342 @@ footer{
             }
         }
 
+        @media only screen and (min-width:700px) and (max-width:1000px){
+       
+            .navbar-nav{
+                width: 100%;
+            }
+
+            .fondo{
+                background-image: url(./img/pesas.jpg);
+                height: 200vh;
+                background-size: cover;
+            }
+    
+            .nosotros{
+                background-color: magenta;
+                display: block;
+                height: fit-content;
+                font-family: 'Montserrat', sans-serif;
+            }
+            .nosotros p{
+                background-color: magenta;
+                font-family: 'Montserrat', sans-serif;
+                font-size: large;
+                text-align: justify;
+                margin-right: 30px;
+            }
+    
+            .familia img{
+                visibility: hidden;
+            }
+    
+            .fit p{
+                display: inline-block;
+                color: rgba(255, 255, 255, 0.814);
+                background-color: magenta;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 20px;
+                width: 100%;
+                height: 200px;
+            }
+            .fit img{
+                width: 80%;
+                margin-left: 70px;
+                height: 300px;
+            }
+            aside iframe{
+                display:inline-block;
+                position: absolute;
+                justify-content: end;
+                margin-top: 910px;
+                margin-left:-690px;
+                height: 320px;
+                width: 680px;
+            }
+            
+            .galeria{
+                position: absolute;
+                background: none;
+                grid-template-columns: repeat(2, 220px);
+                grid-template-rows: repeat(3, 200px);
+                grid-template-areas:"img1  img2"
+                                    "img3  img4"
+                                    "img5  img6"; 
+            }
+            .item{
+                border: magenta 4px double;
+                border-radius: 8px;
+                background-position: center;
+                background-size: cover;
+            }
+            .checkbox{
+                margin-top: 700px;
+                text-align: center;
+                
+            }
+            .form-check{
+                position: relative;
+                color: white;
+                font-size: 18px;
+                display: block;
+                }
+    
+            table{
+                position: absolute;
+                top: 150px;
+                left: 15px;
+                text-align: center;
+                border: aqua double;
+                border-width: 5px;
+                padding: 10px;
+                height: 600px;                
+                width: 100vh;
+                animation-timing-function: 45s;
+                }
+            .user section{
+                font-size:10px;
+                color: magenta;
+                position:absolute;
+            }
+             .profes{
+                position: absolute;
+                color: aqua;
+                font-size: 25px;
+                border-style:groove;
+                border-color: magenta;
+                border-width: 2px;
+                font-family: 'Montserrat', sans-serif;
+                top: 800px;
+                left:250px;
+                }
+                .user{
+                    position: absolute;
+                    font-size: 20px;
+                    text-align: center;
+                }
+                .uno{
+                    position: absolute;
+                    color: #00f5f9;
+                    top: 850px;
+                    left:70px;
+                }
+                .dos{
+                    position: absolute;
+                    color: magenta;
+                    top: 1000px;
+                    left:70px;
+                }
+                .tres{
+                    position: absolute;
+                    color: #00f5f9;
+                    top: 1150px;
+                    left:75px;
+                }
+                .user2{
+                    position: absolute;
+                    font-size: 20px;
+                    text-align: center;
+                }
+                .cuatro{
+                    position: absolute;
+                    color: magenta;
+                    top: 850px;
+                    left: 295px;
+                }
+                .cinco{
+                    position: absolute;
+                    color: #00f5f9;
+                    top: 1000px;
+                    left: 290px;
+                }
+                .seis{
+                    position: absolute;
+                    color: magenta;
+                    top: 1150px;
+                    left: 290px;
+                }
+                .user3{
+                    position: absolute;
+                    font-size: 20px;
+                    text-align: center;
+                }
+                .siete{
+                    position: absolute;
+                    color: #00f5f9;
+                    top: 850px;
+                    left:530px;
+                }
+                .ocho{
+                    position: absolute;
+                    color: magenta;
+                    top: 1000px;
+                    left: 520px;
+                }
+                .nueve{
+                    position: absolute;
+                    color: #00f5f9;
+                    top: 1150px;
+                    left:530px;
+                }
+              
+                h3{
+                   visibility: hidden;
+                   margin: 0;
+                }
+                section iframe{
+                    position: absolute;
+                    display: list-item;
+                    margin-bottom: 15px;
+                    animation-timing-function: 2s;
+                }
+                    
+                #calentamiento{
+                    position: absolute;
+                    height: 300px;
+                    top: 150px;
+                    left:0px;
+                    width: 100%;
+                }
+                #manos1{
+                    visibility: hidden;
+                    margin: 0;
+                }
+                    
+                #espalda{
+                    position: absolute;
+                    height: 300px;
+                    top: 450px;
+                    left:0px;
+                    width: 100%;
+                }
+                #manos2{
+                    visibility: hidden;
+                }
+                    
+                #brazos{
+                    position: absolute;
+                    height: 300px;
+                    top: 750px;
+                    left: 0px;
+                    width: 100%;
+                }
+                #manos3{
+                   visibility: hidden;
+                }
+                    
+                #gap{
+                    position: absolute;
+                    height: 300px;
+                    top: 1050px;
+                    left:0px;
+                    width: 100%;
+                }
+                #manos4{
+                    visibility: hidden;
+                }
+    
+    
+            footer{
+                position:absolute;
+                top: 1400px;
+                left: 0;
+                right: 0;
+                bottom: 80px;
+                height: 300px;
+                background-color: rgba(0, 255, 255, 0.907);
+                border-color: magenta;
+                border-style: double;
+                border-width: 28px;
+                border-width: 8px;
+                background-color: #00f5f9;
+                background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23f900f8' fill-opacity='0.55'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+                display: block;
+                }
+                
+                .ig{
+                    color: magenta;
+                    font-size: 45px;
+                    padding-left: 45px;
+                    display: block;
+                    margin-top: 40px;
+                    width: fit-content;
+                }  
+                
+                .yt{
+                    color: magenta;
+                    font-size: 45px;
+                    padding-left: 40px;
+                    display: block;
+                    margin-top: 40px;
+                    width: fit-content;
+                }
+            
+                .wp{
+                    color: magenta;
+                    font-size: 45px;
+                    padding-left: 45px;
+                    margin-top: 40px;
+                    width:fit-content;
+                }
+            i:hover{
+                background-color: rgba(0, 0, 0, 0.266);
+                }
+                
+                form label{
+                left: 250px;
+                top: 20px;
+                position: absolute;
+                font-family: sans-serif;
+                background-color: black;
+                color: magenta;
+                padding: 5px;
+                border: 4px groove;
+                border-color: magenta;
+                font-weight: bold;
+                display: block;
+                font-size: 25px;
+                }
+                
+                textarea{
+                    position:absolute;
+                    left: 270px;
+                    top: 80px;
+                    bottom: 60px;
+                    box-sizing: border-box;
+                }
+                
+                 #enviar{
+                    position: absolute;
+                    top: 238px;
+                    left: 400px;
+                    padding: 4px;
+                    background-color: black;
+                    font-weight: bold;
+                    border: 4px groove;
+                    border-color:magenta;
+                    color: magenta;
+                }
+                
+                #borrar{
+                    position: absolute;
+                    left: 300px;
+                    top: 238px;
+                    padding: 4px;
+                    background-color: black;
+                    font-weight: bold;
+                    border: 4px groove;
+                    border-color: magenta ;
+                    color: magenta;
+                }
+            
+                footer p{
+                    color: rgb(74, 72, 72);
+                    font-size: 22px;
+                    font-family:fantasy;
+                    position:absolute;
+                    left:130px;
+                    text-align: center;
+                    top: 290px;
+                }
+            }
