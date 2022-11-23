@@ -141,7 +141,8 @@ table {
   padding: 10px;
   height: 700px;
   width: 700px;
-  animation-timing-function: 45s;
+  -webkit-animation-timing-function: 45s;
+          animation-timing-function: 45s;
 }
 table th {
   color: magenta;
@@ -259,14 +260,16 @@ h3 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 40px;
   font-weight: lighter;
-  text-decoration: underline aqua;
+  -webkit-text-decoration: underline aqua;
+          text-decoration: underline aqua;
   top: 200px;
   left: 600px;
 }
 
 section iframe {
   position: absolute;
-  animation-timing-function: 2s;
+  -webkit-animation-timing-function: 2s;
+          animation-timing-function: 2s;
 }
 
 #calentamiento {
@@ -339,6 +342,8 @@ footer a .ig {
   top: 985px;
   display: block;
   margin-top: 15px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
 }
 footer a .yt {
@@ -347,6 +352,8 @@ footer a .yt {
   padding-left: 12px;
   display: block;
   margin-top: 15px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
 }
 footer a .wp {
@@ -354,6 +361,8 @@ footer a .wp {
   font-size: 40px;
   padding-left: 15px;
   margin-top: 15px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
 }
 footer a i:hover {
@@ -373,9 +382,12 @@ footer form label {
   font-weight: bold;
   display: block;
   font-size: 20px;
-  animation-name: pulse;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
+  -webkit-animation-name: pulse;
+          animation-name: pulse;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 footer form textarea {
   position: absolute;
@@ -404,6 +416,17 @@ footer form #borrar {
   border: 4px groove;
   border-color: magenta;
   color: magenta;
+}
+@-webkit-keyframes pulse {
+  0% {
+    font-size: 20px;
+  }
+  50% {
+    font-size: 15px;
+  }
+  100% {
+    font-size: 20px;
+  }
 }
 @keyframes pulse {
   0% {
@@ -458,7 +481,8 @@ footer p {
     padding: 10px;
     height: 400px;
     width: 400px;
-    animation-timing-function: 45s;
+    -webkit-animation-timing-function: 45s;
+            animation-timing-function: 45s;
   }
   .user section {
     font-size: 10px;
@@ -553,7 +577,8 @@ footer p {
     position: absolute;
     display: list-item;
     margin-bottom: 15px;
-    animation-timing-function: 2s;
+    -webkit-animation-timing-function: 2s;
+            animation-timing-function: 2s;
   }
   #calentamiento {
     position: absolute;
@@ -618,6 +643,8 @@ footer p {
     padding-left: 17px;
     display: block;
     margin-top: 45px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
   }
   .yt {
@@ -626,6 +653,8 @@ footer p {
     padding-left: 12px;
     display: block;
     margin-top: 45px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
   }
   .wp {
@@ -633,6 +662,8 @@ footer p {
     font-size: 40px;
     padding-left: 15px;
     margin-top: 45px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
   }
   i:hover {
@@ -690,6 +721,4 @@ footer p {
     text-align: center;
     top: 290px;
   }
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=styles.css.map */

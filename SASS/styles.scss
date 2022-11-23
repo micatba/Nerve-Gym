@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:ital,wght@1,300&display=swap');
-
+@import "_vars";
 *{
     padding: 0;
     margin: 0;
@@ -14,51 +14,52 @@ body{
     background-image: url(./img/pesas.jpg);
     height: 155vh;
     background-size: cover;
-}
-
 h2{
-    background-color: aqua;
-    border: double magenta;
+    background-color: $maincolor;
+    border: double $secondcolor;
     border-width: 8px;
     font-size: larger;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $mainfont;
     font-weight: bolder;
 }
+}
+
+
 
 .navbar{
     background-color: black !important;
     border-style: double;
-    border-color: magenta;
+    border-color: $secondcolor;
     border-width: 5px;
 }
 .navbar-nav{
     font-size: 20px;
 }
 .navbar-brand{
-    color: aqua;
+    color: $maincolor;
     font-family: 'Alfa Slab One', cursive;
     font-size: 40px;
-    text-shadow: 0 5px 5px magenta;
+    text-shadow: 0 5px 5px $secondcolor;
     text-decoration:none;
 }
 .navbar-brand:hover{
-    color: magenta;
+    color: $secondcolor;
     font-family: 'Alfa Slab One', cursive;
     font-size: 40px;
-    text-shadow: 0 5px 5px aqua;
+    text-shadow: 0 5px 5px $maincolor;
 }
 section{
     background-color: black;
-    
-}
 .nosotros{
-    background-color: magenta;
+    background-color: $secondcolor;
     padding-bottom: 30px;
 }
 .pam{
-    background-color: magenta;
+    background-color: $secondcolor;
     font-size: 20px;
 }
+}
+
 
 aside{
     float: right;
@@ -70,7 +71,7 @@ aside{
 .galeria{
     height: auto;
     width: 100%;
-    background-color: magenta;
+    background-color: $secondcolor;
     display:grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 150px);
@@ -85,7 +86,7 @@ aside{
 }
 
 .item{
-    border: aqua 4px double;
+    border: $maincolor 4px double;
     border-radius: 8px;
     background-position: center;
 }
@@ -140,39 +141,39 @@ table{
     top: 280px;
     left: 50px;
     text-align: center;
-    border: aqua double;
+    border: $maincolor double;
     border-width: 5px;
     padding: 10px;
     height: 700px;
     width: 700px;
     animation-timing-function: 45s;
-}
-table th{
-    color: magenta;
-    border: aqua double;
+th{
+    color: $secondcolor;
+    border: $maincolor double;
     border-width: 5px;
     padding: 5px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
     font-weight: lighter;
 }
-table tr{
+tr{
     color: white;
-    border: aqua double;
+    border: $maincolor double;
     font-size: 20px;
     border-width: 5px;
     padding: 10px;
-
 }
+}
+
 
 .profes{
     position: absolute;
-    color: aqua;
+    color: $maincolor;
     font-size: 40px;
     border-style:groove;
-    border-color: magenta;
+    border-color: $secondcolor;
     border-width: 2px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $mainfont;
     top: 300px;
     left: 1040px;
 }
@@ -190,7 +191,7 @@ table tr{
 }
 .dos{
     position: absolute;
-    color: magenta;
+    color: $secondcolor;
     top: 550px;
     left:790px;
 }
@@ -209,7 +210,7 @@ table tr{
 }
 .cuatro{
     position: absolute;
-    color: magenta;
+    color: $secondcolor;
     top: 400px;
     left: 1050px;
 }
@@ -221,7 +222,7 @@ table tr{
 }
 .seis{
     position: absolute;
-    color: magenta;
+    color: $secondcolor;
     top: 700px;
     left: 1040px;
 }
@@ -240,7 +241,7 @@ table tr{
 }
 .ocho{
     position: absolute;
-    color: magenta;
+    color: $secondcolor;
     top: 550px;
     left: 1280px;
 }
@@ -253,11 +254,11 @@ table tr{
 
 h3{
     position: absolute;
-    color: magenta;
+    color: $secondcolor;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
     font-weight: lighter;
-    text-decoration: underline aqua;
+    text-decoration: underline $maincolor;
     top: 200px;
     left: 600px;
 }
@@ -314,67 +315,97 @@ footer{
     right: 0;
     bottom: 80px;
     height: 200px;
-    border-color: magenta;
+    border-color: $secondcolor;
     border-style: double;
     border-width: 28px;
     border-width: 8px;
     background-color: #00f5f9;
     background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23f900f8' fill-opacity='0.55'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     display: block;
-    }
-    footer a{
-        text-decoration: none;
-    }
-    .ig{
-        color: magenta;
-        font-size: 40px;
-        padding-left: 17px;
-        top: 985px;
-        display: block;
-        margin-top: 15px;
-        width: fit-content;
-    }  
-    
-    .yt{
-        color: magenta;
-        font-size: 40px;
-        padding-left: 12px;
-        display: block;
-        margin-top: 15px;
-        width: fit-content;
-    }
+a{
+    text-decoration: none;
+.ig{
+    color: $secondcolor;
+    font-size: 40px;
+    padding-left: 17px;
+    top: 985px;
+    display: block;
+    margin-top: 15px;
+    width: fit-content;
+}  
 
-    .wp{
-        color: magenta;
-        font-size: 40px;
-        padding-left: 15px;
-        margin-top: 15px;
-        width:fit-content;
-    }
+.yt{
+    color: $secondcolor;
+    font-size: 40px;
+    padding-left: 12px;
+    display: block;
+    margin-top: 15px;
+    width: fit-content;
+}
 
-    i:hover{
-        background-color: rgba(0, 0, 0, 0.266);
-        visibility: visible;
-    }
-    
-    form label{
+.wp{
+    color: $secondcolor;
+    font-size: 40px;
+    padding-left: 15px;
+    margin-top: 15px;
+    width:fit-content;
+}
+i:hover{
+    background-color: rgba(0, 0, 0, 0.266);
+    visibility: visible;
+}
+}
+
+form{
+label{
     left: 570px;
     top: 20px;
     position: absolute;
     font-family: sans-serif;
     background-color: black;
-    color: magenta;
+    color: $secondcolor;
     padding: 8px;
     border: 4px groove;
-    border-color: magenta;
+    border-color: $secondcolor;
     font-weight: bold;
     display: block;
     font-size: 20px;
     animation-name: pulse;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    }
-  @keyframes pulse{
+}
+textarea{
+    position:absolute;
+    left: 560px;
+    top: 85px;
+    bottom: 75px;
+}
+
+#enviar{
+    position: absolute;
+    top: 130px;
+    left: 700px;
+    padding: 4px;
+    background-color: black;
+    font-weight: bold;
+    border: 4px groove;
+    border-color:$secondcolor;
+    color: $secondcolor;
+}
+
+#borrar{
+    position: absolute;
+    left: 630px;
+    top: 130px;
+    padding: 4px;
+    background-color: black;
+    font-weight: bold;
+    border: 4px groove;
+    border-color: $secondcolor ;
+    color: $secondcolor;
+}
+
+@keyframes pulse{
     0%{
         font-size: 20px;
     }
@@ -384,49 +415,18 @@ footer{
     100%{
         font-size: 20px;
     }
-  }
-
-    textarea{
-        position:absolute;
-        left: 560px;
-        top: 85px;
-        bottom: 75px;
-    }
-    
-     #enviar{
-        position: absolute;
-        top: 130px;
-        left: 700px;
-        padding: 4px;
-        background-color: black;
-        font-weight: bold;
-        border: 4px groove;
-        border-color:magenta;
-        color: magenta;
-    }
-    
-    #borrar{
-        position: absolute;
-        left: 630px;
-        top: 130px;
-        padding: 4px;
-        background-color: black;
-        font-weight: bold;
-        border: 4px groove;
-        border-color: magenta ;
-        color: magenta;
-    }
-
-    footer p{
-        color: rgb(74, 72, 72);
-        font-size:30px;
-        font-family:fantasy;
-        position:absolute;
-        left: 450px;
-        text-align: center;
-        top: 200px;
-
-    }
+}
+}
+p{
+    color: rgb(74, 72, 72);
+    font-size:30px;
+    font-family:fantasy;
+    position:absolute;
+    left: 450px;
+    text-align: center;
+    top: 200px;
+}
+}
 
 
 
@@ -442,7 +442,7 @@ footer{
                                 "img5  img6"; 
         }
         .item{
-            border: magenta 4px double;
+            border: $secondcolor 4px double;
             border-radius: 8px;
             background-position: center;
             background-size: cover;
@@ -461,7 +461,7 @@ footer{
             top: 150px;
             left: 15px;
             text-align: center;
-            border: aqua double;
+            border: $maincolor double;
             border-width: 5px;
             padding: 10px;
             height: 400px;                
@@ -470,17 +470,17 @@ footer{
             }
         .user section{
             font-size:10px;
-            color: magenta;
+            color: $secondcolor;
             position:absolute;
         }
-         .profes{
+        .profes{
             position: absolute;
-            color: aqua;
+            color: $maincolor;
             font-size: 20px;
             border-style:groove;
-            border-color: magenta;
+            border-color: $secondcolor;
             border-width: 2px;
-            font-family: 'Montserrat', sans-serif;
+            font-family: $mainfont;
             top: 580px;
             left:150px;
             }
@@ -497,7 +497,7 @@ footer{
             }
             .dos{
                 position: absolute;
-                color: magenta;
+                color: $secondcolor;
                 top: 700px;
                 left:20px;
             }
@@ -514,7 +514,7 @@ footer{
             }
             .cuatro{
                 position: absolute;
-                color: magenta;
+                color: $secondcolor;
                 top: 600px;
                 left: 180px;
             }
@@ -526,7 +526,7 @@ footer{
             }
             .seis{
                 position: absolute;
-                color: magenta;
+                color: $secondcolor;
                 top: 800px;
                 left: 180px;
             }
@@ -543,7 +543,7 @@ footer{
             }
             .ocho{
                 position: absolute;
-                color: magenta;
+                color: $secondcolor;
                 top: 700px;
                 left: 300px;
             }
@@ -553,10 +553,10 @@ footer{
                 top: 800px;
                 left:320px;
             }
-          
+        
             h3{
-               visibility: hidden;
-               margin: 0;
+            visibility: hidden;
+            margin: 0;
             }
             section iframe{
                 position: absolute;
@@ -596,7 +596,7 @@ footer{
                 width: 100%;
             }
             #manos3{
-               visibility: hidden;
+            visibility: hidden;
             }
                 
             #gap{
@@ -619,7 +619,7 @@ footer{
             bottom: 80px;
             height: 300px;
             background-color: rgba(0, 255, 255, 0.907);
-            border-color: magenta;
+            border-color: $secondcolor;
             border-style: double;
             border-width: 28px;
             border-width: 8px;
@@ -629,7 +629,7 @@ footer{
             }
             
             .ig{
-                color: magenta;
+                color: $secondcolor;
                 font-size: 40px;
                 padding-left: 17px;
                 display: block;
@@ -638,7 +638,7 @@ footer{
             }  
             
             .yt{
-                color: magenta;
+                color: $secondcolor;
                 font-size: 40px;
                 padding-left: 12px;
                 display: block;
@@ -647,7 +647,7 @@ footer{
             }
         
             .wp{
-                color: magenta;
+                color: $secondcolor;
                 font-size: 40px;
                 padding-left: 15px;
                 margin-top: 45px;
@@ -663,10 +663,10 @@ footer{
             position: absolute;
             font-family: sans-serif;
             background-color: black;
-            color: magenta;
+            color: $secondcolor;
             padding: 5px;
             border: 4px groove;
-            border-color: magenta;
+            border-color: $secondcolor;
             font-weight: bold;
             display: block;
             font-size: 15px;
@@ -680,7 +680,7 @@ footer{
                 box-sizing: border-box;
             }
             
-             #enviar{
+            #enviar{
                 position: absolute;
                 top: 238px;
                 left: 250px;
@@ -688,8 +688,8 @@ footer{
                 background-color: black;
                 font-weight: bold;
                 border: 4px groove;
-                border-color:magenta;
-                color: magenta;
+                border-color:$secondcolor;
+                color: $secondcolor;
             }
             
             #borrar{
@@ -700,8 +700,8 @@ footer{
                 background-color: black;
                 font-weight: bold;
                 border: 4px groove;
-                border-color: magenta ;
-                color: magenta;
+                border-color: $secondcolor ;
+                color: $secondcolor;
             }
         
             footer p{
@@ -714,5 +714,5 @@ footer{
                 top: 290px;
         
             }
-     
+    
         }
