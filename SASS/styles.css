@@ -56,6 +56,9 @@ section .nosotros {
   background-color: magenta;
   padding-bottom: 30px;
 }
+section .nosotros h1 {
+  text-shadow: 2px 2px black;
+}
 section .pam {
   background-color: magenta;
   font-size: 20px;

@@ -48,18 +48,21 @@ h2{
     font-size: 40px;
     text-shadow: 0 5px 5px $maincolor;
 }
+
 section{
     background-color: black;
 .nosotros{
     background-color: $secondcolor;
     padding-bottom: 30px;
+h1{
+    text-shadow: 2px 2px black;
+}
 }
 .pam{
     background-color: $secondcolor;
     font-size: 20px;
 }
 }
-
 
 aside{
     float: right;
