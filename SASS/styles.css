@@ -11,7 +11,7 @@ body {
 
 .fondo {
   background-image: url(./img/pesas.jpg);
-  height: 200vh;
+  height: 180vh;
   background-size: cover;
 }
 .fondo h2 {
