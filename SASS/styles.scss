@@ -49,25 +49,27 @@ h2{
 
 section{
     background-color: black;
+}
 .nosotros{
     background-color: $secondcolor;
     padding-bottom: 30px;
+}
 h1{
     text-shadow: 2px 2px black;
 }
-p{
+.nosotros p{
     font-size: 20px;
     text-align: left;
     text-shadow: 1px 1px rgb(73, 73, 73);
 }
-}
+
 .pam{
     background-color: $secondcolor;
     font-size: 20px;
     color: white;
     text-shadow: 1px 1px rgb(73, 73, 73);
 }
-}
+
 
 aside{
     float: right;
@@ -442,6 +444,45 @@ footer p{
 
 @media only screen and (min-width:400px) and (max-width:480px){
 
+    .nosotros{
+        background-color: $secondcolor;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        height:fit-content;
+        position: absolute;
+        width: $var1 + $var2;
+    }
+    h1{
+        text-shadow: 2px 2px black;
+    }
+    .nosotros p{
+        font-size: 18px;
+        text-align: left;
+        text-shadow: 1px 1px rgb(73, 73, 73);
+    }
+    
+    .fit img{
+        margin-top: 445px;
+        height: 250px;
+        width: 100%;
+    }
+    .pam{
+        background-color: $secondcolor;
+        font-size: 18px;
+        text-align: center;
+        color: white;
+        text-shadow: 1px 1px rgb(73, 73, 73);
+    }
+    aside iframe{
+        display: block;
+        height: 200px;
+        width: 100%;
+        position: fixed;
+    }
+
+    .familia{
+        visibility: hidden;
+    }
     .galeria{
         position: absolute;
         background: none;
@@ -458,7 +499,7 @@ footer p{
         background-size: cover;
     }
     .checkbox{
-        margin-top: 500px;
+        margin-top: 450px;
         .form-check{
             position: relative;
             color: white;
@@ -572,52 +613,53 @@ footer p{
         display: list-item;
         margin-bottom: 15px;
         animation-timing-function: 2s;
-        #calentamiento{
-            position: absolute;
-            height: 200px;
-            top: 150px;
-            left:0px;
-            width: $var1 + $var2;
-        }
-        #manos1{
-            visibility: hidden;
-            margin: 0;
-        }         
-        #espalda{
-            position: absolute;
-            height: 200px;
-            top: 355px;
-            left:0px;
-            width: $var1 + $var2;
-        }
-        #manos2{
-            visibility: hidden;
-        }        
-        #brazos{
-            position: absolute;
-            height: 200px;
-            top: 560px;
-            left: 0px;
-            width: $var1 + $var2;
-        }
-        #manos3{
-            visibility: hidden;
-        }
-        #gap{
-            position: absolute;
-            height: 200px;
-            top: 765px;
-            left:0px;
-            width: $var1 + $var2;
-        }
-        #manos4{
-            visibility: hidden;
-        }
     }
+    #calentamiento{
+        position: absolute;
+        height: 200px;
+        top: 150px;
+        left:0px;
+        width: $var1 + $var2;
+    }
+    #manos1{
+        visibility: hidden;
+        margin: 0;
+    }         
+    #espalda{
+        position: absolute;
+        height: 200px;
+        top: 355px;
+        left:0px;
+        width: $var1 + $var2;
+    }
+    #manos2{
+        visibility: hidden;
+    }        
+    #brazos{
+        position: absolute;
+        height: 200px;
+        top: 560px;
+        left: 0px;
+        width: $var1 + $var2;
+    }
+    #manos3{
+        visibility: hidden;
+    }
+    #gap{
+        position: absolute;
+        height: 200px;
+        top: 765px;
+        left:0px;
+        width: $var1 + $var2;
+    }
+    #manos4{
+        visibility: hidden;
+    }
+    
 
     footer{
         position:absolute;
-        top: 1000px;
+        top: 1150px;
         left: 0;
         right: 0;
         bottom: 80px;
@@ -691,7 +733,7 @@ footer p{
     }
     #borrar{
         position: absolute;
-        left: 15px;
+        left: 175px;
         top: 238px;
         padding: 4px;
         background-color: black;
