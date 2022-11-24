@@ -330,8 +330,10 @@ footer{
     background-color: #00f5f9;
     background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23f900f8' fill-opacity='0.55'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     display: block;
+}
 a{
     text-decoration: none;
+}
 .ig{
     color: $secondcolor;
     font-size: 40px;
@@ -362,10 +364,10 @@ i:hover{
     background-color: rgba(0, 0, 0, 0.266);
     visibility: visible;
 }
-}
 
-form{
-label{
+
+
+form label{
     left: 570px;
     top: 20px;
     position: absolute;
@@ -424,8 +426,8 @@ textarea{
         font-size: 20px;
     }
 }
-}
-p{
+
+footer p{
     color: rgb(74, 72, 72);
     font-size:30px;
     font-family:fantasy;
@@ -434,7 +436,7 @@ p{
     text-align: center;
     top: 200px;
 }
-}
+
 
 
 
@@ -612,6 +614,7 @@ p{
             visibility: hidden;
         }
     }
+
     footer{
         position:absolute;
         top: 1000px;
@@ -627,85 +630,84 @@ p{
         background-color: #00f5f9;
         background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23f900f8' fill-opacity='0.55'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
         display: block;
-        .ig{
-            color: $secondcolor;
-            font-size: 40px;
-            padding-left: 17px;
-            display: block;
-            margin-top: 45px;
-            width: fit-content;
-        }   
-        .yt{
-            color: $secondcolor;
-            font-size: 40px;
-            padding-left: 12px;
-            display: block;
-            margin-top: 45px;
-            width: fit-content;
-        }
-        .wp{
-            color: $secondcolor;
-            font-size: 40px;
-            padding-left: 15px;
-            margin-top: 45px;
-            width:fit-content;
-        }
-        i:hover{
-            background-color: rgba(0, 0, 0, 0.266);
-        }   
-        form{
-        label{
-            left: 130px;
-            top: 20px;
-            position: absolute;
-            font-family: sans-serif;
-            background-color: black;
-            color: $secondcolor;
-            padding: 5px;
-            border: 4px groove;
-            border-color: $secondcolor;
-            font-weight: bold;
-            display: block;
-            font-size: 15px;
-        }
-        textarea{
-            position:absolute;
-            left: 130px;
-            top: 80px;
-            bottom: 60px;
-            box-sizing: border-box;
-        }
-        #enviar{
-            position: absolute;
-            top: 238px;
-            left: 250px;
-            padding: 4px;
-            background-color: black;
-            font-weight: bold;
-            border: 4px groove;
-            border-color:$secondcolor;
-            color: $secondcolor;
-        }
-        #borrar{
-            position: absolute;
-            left: 175px;
-            top: 238px;
-            padding: 4px;
-            background-color: black;
-            font-weight: bold;
-            border: 4px groove;
-            border-color: $secondcolor ;
-            color: $secondcolor;
-        }
-        }
-        p{
-            color: rgb(74, 72, 72);
-            font-size: 20px;
-            font-family:fantasy;
-            position:absolute;
-            left: 15px;
-            text-align: center;
-            top: 290px;
-        }
+    }
+    .ig{
+        color: $secondcolor;
+        font-size: 40px;
+        padding-left: 17px;
+        display: block;
+        margin-top: 45px;
+        width: fit-content;
+    }   
+    .yt{
+        color: $secondcolor;
+        font-size: 40px;
+        padding-left: 12px;
+        display: block;
+        margin-top: 45px;
+        width: fit-content;
+    }
+    .wp{
+        color: $secondcolor;
+        font-size: 40px;
+        padding-left: 15px;
+        margin-top: 45px;
+        width:fit-content;
+    }
+    i:hover{
+        background-color: rgba(0, 0, 0, 0.266);
+    }   
+    form label{
+        left: 130px;
+        top: 20px;
+        position: absolute;
+        font-family: sans-serif;
+        background-color: black;
+        color: $secondcolor;
+        padding: 5px;
+        border: 4px groove;
+        border-color: $secondcolor;
+        font-weight: bold;
+        display: block;
+        font-size: 15px;
+    }
+    textarea{
+        position:absolute;
+        left: 130px;
+        top: 80px;
+        bottom: 60px;
+        box-sizing: border-box;
+    }
+    #enviar{
+        position: absolute;
+        top: 238px;
+        left: 250px;
+        padding: 4px;
+        background-color: black;
+        font-weight: bold;
+        border: 4px groove;
+        border-color:$secondcolor;
+        color: $secondcolor;
+    }
+    #borrar{
+        position: absolute;
+        left: 15px;
+        top: 238px;
+        padding: 4px;
+        background-color: black;
+        font-weight: bold;
+        border: 4px groove;
+        border-color: $secondcolor;
+        color: $secondcolor;
+    }
+    
+    footer p{
+        color: rgb(74, 72, 72);
+        font-size: 20px;
+        font-family:fantasy;
+        position:absolute;
+        left: 15px;
+        text-align: center;
+        top: 290px;
     }
 }
