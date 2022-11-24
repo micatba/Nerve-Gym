@@ -59,9 +59,16 @@ section .nosotros {
 section .nosotros h1 {
   text-shadow: 2px 2px black;
 }
+section .nosotros p {
+  font-size: 20px;
+  text-align: left;
+  text-shadow: 1px 1px rgb(73, 73, 73);
+}
 section .pam {
   background-color: magenta;
   font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px rgb(73, 73, 73);
 }
 
 aside {

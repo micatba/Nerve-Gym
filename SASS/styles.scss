@@ -24,8 +24,6 @@ h2{
 }
 }
 
-
-
 .navbar{
     background-color: black !important;
     border-style: double;
@@ -57,10 +55,17 @@ section{
 h1{
     text-shadow: 2px 2px black;
 }
+p{
+    font-size: 20px;
+    text-align: left;
+    text-shadow: 1px 1px rgb(73, 73, 73);
+}
 }
 .pam{
     background-color: $secondcolor;
     font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px rgb(73, 73, 73);
 }
 }
 
@@ -433,234 +438,223 @@ p{
 
 
 
-    @media only screen and (min-width:400px) and (max-width:480px){
+@media only screen and (min-width:400px) and (max-width:480px){
 
-        .galeria{
-            position: absolute;
-            background: none;
-            grid-template-columns: repeat(2, 200px);
-            grid-template-rows: repeat (6, 200px 200px);
-            grid-template-areas:"img1  img2"
-                                "img3  img4"
-                                "img5  img6"; 
-        }
-        .item{
-            border: $secondcolor 4px double;
-            border-radius: 8px;
-            background-position: center;
-            background-size: cover;
-        }
-        .checkbox{
-            margin-top: 500px;
-        }
+    .galeria{
+        position: absolute;
+        background: none;
+        grid-template-columns: repeat(2, 200px);
+        grid-template-rows: repeat (6, 200px 200px);
+        grid-template-areas:"img1  img2"
+                            "img3  img4"
+                            "img5  img6"; 
+    }
+    .item{
+        border: $secondcolor 4px double;
+        border-radius: 8px;
+        background-position: center;
+        background-size: cover;
+    }
+    .checkbox{
+        margin-top: 500px;
         .form-check{
             position: relative;
             color: white;
             font-size: 18px;
-            }
-
-        table{
-            position: absolute;
-            top: 150px;
-            left: 15px;
-            text-align: center;
-            border: $maincolor double;
-            border-width: 5px;
-            padding: 10px;
-            height: 400px;                
-            width: 400px;
-            animation-timing-function: 45s;
-            }
-        .user section{
-            font-size:10px;
-            color: $secondcolor;
-            position:absolute;
         }
-        .profes{
-            position: absolute;
-            color: $maincolor;
-            font-size: 20px;
-            border-style:groove;
-            border-color: $secondcolor;
-            border-width: 2px;
-            font-family: $mainfont;
-            top: 580px;
-            left:150px;
-            }
-            .user{
-                position: absolute;
-                font-size: 15px;
-                text-align: center;
-            }
-            .uno{
-                position: absolute;
-                color: #00f5f9;
-                top: 600px;
-                left:30px;
-            }
-            .dos{
-                position: absolute;
-                color: $secondcolor;
-                top: 700px;
-                left:20px;
-            }
-            .tres{
-                position: absolute;
-                color: #00f5f9;
-                top: 800px;
-                left:35px;
-            }
-            .user2{
-                position: absolute;
-                font-size: 15px;
-                text-align: center;
-            }
-            .cuatro{
-                position: absolute;
-                color: $secondcolor;
-                top: 600px;
-                left: 180px;
-            }
-            .cinco{
-                position: absolute;
-                color: #00f5f9;
-                top: 700px;
-                left: 180px;
-            }
-            .seis{
-                position: absolute;
-                color: $secondcolor;
-                top: 800px;
-                left: 180px;
-            }
-            .user3{
-                position: absolute;
-                font-size: 15px;
-                text-align: center;
-            }
-            .siete{
-                position: absolute;
-                color: #00f5f9;
-                top: 600px;
-                left:320px;
-            }
-            .ocho{
-                position: absolute;
-                color: $secondcolor;
-                top: 700px;
-                left: 300px;
-            }
-            .nueve{
-                position: absolute;
-                color: #00f5f9;
-                top: 800px;
-                left:320px;
-            }
+    }
+    table{
+        position: absolute;
+        top: 150px;
+        left: 15px;
+        text-align: center;
+        border: $maincolor double;
+        border-width: 5px;
+        padding: 10px;
+        height: 400px;                
+        width: 400px;
+        animation-timing-function: 45s;
+    }
+    .user section{
+        font-size:10px;
+        color: $secondcolor;
+        position:absolute;
+    }
+    .profes{
+        position: absolute;
+        color: $maincolor;
+        font-size: 20px;
+        border-style:groove;
+        border-color: $secondcolor;
+        border-width: 2px;
+        font-family: $mainfont;
+        top: 580px;
+        left:150px;
+    }
+    .user{
+        position: absolute;
+        font-size: 15px;
+        text-align: center;
+    }
+    .uno{
+        position: absolute;
+        color: #00f5f9;
+        top: 600px;
+        left:30px;
+    }
+    .dos{
+        position: absolute;
+        color: $secondcolor;
+        top: 700px;
+        left:20px;
+    }
+    .tres{
+        position: absolute;
+        color: #00f5f9;
+        top: 800px;
+        left:35px;
+    }
+    .user2{
+        position: absolute;
+        font-size: 15px;
+        text-align: center;
+    }
+    .cuatro{
+        position: absolute;
+        color: $secondcolor;
+        top: 600px;
+        left: 180px;
+    }
+    .cinco{
+        position: absolute;
+        color: #00f5f9;
+        top: 700px;
+        left: 180px;
+    }
+    .seis{
+        position: absolute;
+        color: $secondcolor;
+        top: 800px;
+        left: 180px;
+    }
+    .user3{
+        position: absolute;
+        font-size: 15px;
+        text-align: center;
+    }
+    .siete{
+        position: absolute;
+        color: #00f5f9;
+        top: 600px;
+        left:320px;
+    }
+    .ocho{
+        position: absolute;
+        color: $secondcolor;
+        top: 700px;
+        left: 300px;
+    }
+    .nueve{
+        position: absolute;
+        color: #00f5f9;
+        top: 800px;
+        left:320px;
+    }
         
-            h3{
+    h3{
+        visibility: hidden;
+        margin: 0;
+    }
+    section iframe{
+        position: absolute;
+        display: list-item;
+        margin-bottom: 15px;
+        animation-timing-function: 2s;
+        #calentamiento{
+            position: absolute;
+            height: 200px;
+            top: 150px;
+            left:0px;
+            width: $var1 + $var2;
+        }
+        #manos1{
             visibility: hidden;
             margin: 0;
-            }
-            section iframe{
-                position: absolute;
-                display: list-item;
-                margin-bottom: 15px;
-                animation-timing-function: 2s;
-            }
-                
-            #calentamiento{
-                position: absolute;
-                height: 200px;
-                top: 150px;
-                left:0px;
-                width: $var1 + $var2;
-            }
-            #manos1{
-                visibility: hidden;
-                margin: 0;
-            }
-                
-            #espalda{
-                position: absolute;
-                height: 200px;
-                top: 355px;
-                left:0px;
-                width: $var1 + $var2;
-            }
-            #manos2{
-                visibility: hidden;
-            }
-                
-            #brazos{
-                position: absolute;
-                height: 200px;
-                top: 560px;
-                left: 0px;
-                width: $var1 + $var2;
-            }
-            #manos3{
+        }         
+        #espalda{
+            position: absolute;
+            height: 200px;
+            top: 355px;
+            left:0px;
+            width: $var1 + $var2;
+        }
+        #manos2{
             visibility: hidden;
-            }
-                
-            #gap{
-                position: absolute;
-                height: 200px;
-                top: 765px;
-                left:0px;
-                width: $var1 + $var2;
-            }
-            #manos4{
-                visibility: hidden;
-            }
-
-
-        footer{
-            position:absolute;
-            top: 1000px;
-            left: 0;
-            right: 0;
-            bottom: 80px;
-            height: 300px;
-            background-color: rgba(0, 255, 255, 0.907);
-            border-color: $secondcolor;
-            border-style: double;
-            border-width: 28px;
-            border-width: 8px;
-            background-color: #00f5f9;
-            background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23f900f8' fill-opacity='0.55'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }        
+        #brazos{
+            position: absolute;
+            height: 200px;
+            top: 560px;
+            left: 0px;
+            width: $var1 + $var2;
+        }
+        #manos3{
+            visibility: hidden;
+        }
+        #gap{
+            position: absolute;
+            height: 200px;
+            top: 765px;
+            left:0px;
+            width: $var1 + $var2;
+        }
+        #manos4{
+            visibility: hidden;
+        }
+    }
+    footer{
+        position:absolute;
+        top: 1000px;
+        left: 0;
+        right: 0;
+        bottom: 80px;
+        height: 300px;
+        background-color: rgba(0, 255, 255, 0.907);
+        border-color: $secondcolor;
+        border-style: double;
+        border-width: 28px;
+        border-width: 8px;
+        background-color: #00f5f9;
+        background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23f900f8' fill-opacity='0.55'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        display: block;
+        .ig{
+            color: $secondcolor;
+            font-size: 40px;
+            padding-left: 17px;
             display: block;
-            }
-            
-            .ig{
-                color: $secondcolor;
-                font-size: 40px;
-                padding-left: 17px;
-                display: block;
-                margin-top: 45px;
-                width: fit-content;
-            }  
-            
-            .yt{
-                color: $secondcolor;
-                font-size: 40px;
-                padding-left: 12px;
-                display: block;
-                margin-top: 45px;
-                width: fit-content;
-            }
-        
-            .wp{
-                color: $secondcolor;
-                font-size: 40px;
-                padding-left: 15px;
-                margin-top: 45px;
-                width:fit-content;
-            }
+            margin-top: 45px;
+            width: fit-content;
+        }   
+        .yt{
+            color: $secondcolor;
+            font-size: 40px;
+            padding-left: 12px;
+            display: block;
+            margin-top: 45px;
+            width: fit-content;
+        }
+        .wp{
+            color: $secondcolor;
+            font-size: 40px;
+            padding-left: 15px;
+            margin-top: 45px;
+            width:fit-content;
+        }
         i:hover{
             background-color: rgba(0, 0, 0, 0.266);
-            }
-            
-            form label{
+        }   
+        form{
+        label{
             left: 130px;
             top: 20px;
             position: absolute;
@@ -673,49 +667,45 @@ p{
             font-weight: bold;
             display: block;
             font-size: 15px;
-            }
-            
-            textarea{
-                position:absolute;
-                left: 130px;
-                top: 80px;
-                bottom: 60px;
-                box-sizing: border-box;
-            }
-            
-            #enviar{
-                position: absolute;
-                top: 238px;
-                left: 250px;
-                padding: 4px;
-                background-color: black;
-                font-weight: bold;
-                border: 4px groove;
-                border-color:$secondcolor;
-                color: $secondcolor;
-            }
-            
-            #borrar{
-                position: absolute;
-                left: 175px;
-                top: 238px;
-                padding: 4px;
-                background-color: black;
-                font-weight: bold;
-                border: 4px groove;
-                border-color: $secondcolor ;
-                color: $secondcolor;
-            }
-        
-            footer p{
-                color: rgb(74, 72, 72);
-                font-size: 20px;
-                font-family:fantasy;
-                position:absolute;
-                left: 15px;
-                text-align: center;
-                top: 290px;
-        
-            }
-    
         }
+        textarea{
+            position:absolute;
+            left: 130px;
+            top: 80px;
+            bottom: 60px;
+            box-sizing: border-box;
+        }
+        #enviar{
+            position: absolute;
+            top: 238px;
+            left: 250px;
+            padding: 4px;
+            background-color: black;
+            font-weight: bold;
+            border: 4px groove;
+            border-color:$secondcolor;
+            color: $secondcolor;
+        }
+        #borrar{
+            position: absolute;
+            left: 175px;
+            top: 238px;
+            padding: 4px;
+            background-color: black;
+            font-weight: bold;
+            border: 4px groove;
+            border-color: $secondcolor ;
+            color: $secondcolor;
+        }
+        }
+        p{
+            color: rgb(74, 72, 72);
+            font-size: 20px;
+            font-family:fantasy;
+            position:absolute;
+            left: 15px;
+            text-align: center;
+            top: 290px;
+        }
+    }
+}
