@@ -23,6 +23,23 @@ body {
   font-weight: bolder;
 }
 
+.subir {
+  height: 45px;
+  width: 45px;
+  background-color: aqua;
+  border: 4px solid magenta;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  line-height: 45px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px magenta;
+  overflow-y: visible;
+}
+
 .navbar {
   background-color: black !important;
   border-style: double;
@@ -726,6 +743,8 @@ footer p {
   }
   textarea {
     position: absolute;
+    width: 250px;
+    height: 150px;
     left: 130px;
     top: 80px;
     bottom: 60px;
